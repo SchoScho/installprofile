@@ -1,0 +1,73 @@
+; Packaging information for de_indymedia_org
+name = "de.indymedia.org"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = ctools_access_ruleset
+; Core
+dependencies[] = aggregator
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = php
+dependencies[] = search
+dependencies[] = syslog
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = translation
+dependencies[] = update
+dependencies[] = user
+; Fields
+dependencies[] = editablefields
+dependencies[] = field_permissions
+; Flags
+dependencies[] = flag
+dependencies[] = flag_actions
+; Indymedia
+dependencies[] = indymedia_cities
+; Input filters
+dependencies[] = filter_html_image_secure
+; Other
+dependencies[] = backup_migrate
+dependencies[] = creative_commons
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = features_git
+dependencies[] = ip_anon
+dependencies[] = session_api
+dependencies[] = token
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = rules_scheduler
+; User interface
+dependencies[] = wysiwyg
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+; Features
+dependencies[] = features
+dependencies[] = indymedia_usermoderation_beta2
+dependencies[] = translationtool
+
