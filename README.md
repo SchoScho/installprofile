@@ -38,4 +38,9 @@ Jump into profile directory of the drupal installation
 
 9) select de_indymedia_org installation profile
 
-10) finished.
+10) almost finished....
+
+11) Stylesheet is still not at the install profile, we have to install it manually 
+
+      cd site/all/themes
+      git clone git@github.com:SchoScho/de.indymedia.org.drupal.css.git
