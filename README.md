@@ -24,6 +24,13 @@ Jump into profile directory of the drupal installation
 
     cd /var/www/drupal
     drush make --force-complete profiles/de_indymedia_org/local.make.example
+    
+6a) Two modules are missing, we have to add it still manually:
+
+      cd /tmp
+      git clone git@github.com:SchoScho/features.git 
+      tar -xvf /tmp/features/indymedia_usermoderation_beta2-7.x-1.0-beta2.tar -C /var/www/drupal/sites/all/modules/
+      tar -xvf /tmp/features/translationtool-7.x-1.0-beta1.tar -C /var/www/drupal/sites/all/modules/
 
 7) Start apache and mysql
 
